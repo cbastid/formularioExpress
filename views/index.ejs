@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <%=formulario%> -->
+    <br><br>
+    <main>
+        
+        <form action="/formulario" method="post"> 
+            <label for="name">Your Name : </label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="">Dojo Location : </label>
+            <select name="comunas">
+                <option>La florida</option>
+                <option>Santiago</option>
+                <option>Providencia</option>
+                <option>Ñuñoa</option>
+            </select><br><br>
+            <label for="">favorite Lenguage: </label>
+            <select name="lenguage">
+                <option>JavaScript</option>
+                <option>Cobol</option>
+                <option>Phaiton</option>
+                <option>C++</option>
+            </select><br><br>
+            <label for="comment">Comment (Opcional)</label><br>
+            <textarea name="comentario" id="comentario" cols="70" rows="5" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <input type="submit">
+        <br>
+
+        </form>
+    </main>
+</body>
+</html>

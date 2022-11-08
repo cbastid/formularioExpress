@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <%=formulario%> -->
+    <br><br>
+    <main>
+        
+        <form action="/" method="get"> 
+            <label for="name">Your Name : </label>
+            <%=formulario.name%><br><br>
+            <label for="">Dojo Location : </label>
+            <%=formulario.comunas%><br><br>
+            <label for="">favorite Lenguage: </label>
+            <%=formulario.lenguage%><br><br>
+            <label for="comment">Comment (Opcional)</label><br>
+            <%=formulario.comentario%>
+        <br>
+        <input type="submit" value="volver">
+        <br>
+
+        </form>
+    </main>
+</body>
+</html>
